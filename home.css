@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header-bg {
+    background-color: #6200FF;
+    display: block;
+    position: absolute;
+    height: 105vh;
+    width: 20000px;
+    padding-left: 3000px;
+    top: -700px;
+    left: -100px;
+    transform: rotate(-3deg);
+}
+
+nav {
+    height: 6em;
+    width: 100vw;
+
+}
+
+nav img {
+    padding-top: 3em;
+    width: 45px;
+    margin-left: 12.5em;
+}
+
+nav button {
+    float: right;
+    color: white;
+    margin-top: 2.6em;
+    font-size: 12pt;
+    font-family: 'Avenir', sans-serif;
+    margin-right: 12.5em;
+    width: 170px;
+    height: 4em;
+    background: #2FE6D4;
+    border: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    box-shadow: 0px 25px 40px rgba(0,0,0,0.17);
+}
+
+
+nav button:hover {
+    background-color: white;
+    box-shadow: 0px 25px 40px rgba(0,0,0,0.3);
+    color: #6200FF;
+    transform: translateY(-7px);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+header {
+    padding-top: 20em;
+    color: white;
+    height: 600px;
+    width: 100%;
+    
+}
+
+header h1 {
+    font-size: 40pt;
+    font-family: 'Avenir', sans-serif;
+    padding-bottom: 1em;
+    font-weight: 500;
+
+}
+
+header p {
+    font-family: 'Nunito Sans', sans-serif;
+    clear: both;
+    font-size: 16pt;
+    font-weight: 200;
+    padding-bottom: 4em;
+    margin-left: 0.1em;
+   
+}
+
+.head-text {
+    margin: auto;
+    width: 86vw;
+
+}
+
+.cta {
+    clear: both !important;
+    display: block;
+    margin-left: 0.8em;
+    color: white;
+    font-size: 14pt;
+    font-family: 'Avenir', sans-serif;
+    width: 220px;
+    height: 4em;
+    background: #2FE6D4;
+    border: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 6px;
+    box-shadow: 0px 25px 40px rgba(0,0,0,0.17);
+
+}
+
+.cta:hover {
+    background-color: white;
+    box-shadow: 0px 25px 40px rgba(0,0,0,0.3);
+    color: #6200FF;
+    transform: translateY(-7px);
+}
+
+header img {
+    position: absolute;
+    right: -8vw;
+    top: 30%;
+    width: 50vw;
+
+}

@@ -1,38 +1,102 @@
-* {
-  margin: 0;
-  padding: 0;
+
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  display: none;
 }
 
-body {
+.js-count-particles{
+  display: none;
+}
+
+#stats,
+.count-particles{
+  display: none;
+}
+
+#stats{
+  display: none;
+}
+
+.count-particles{
+  display: none;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
   background-color: #6200FF;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #6200FF ;
+}
+
+
+/* Particles */
+
+
+.splash {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
 h1 {
-  color: blue;
+  font-size: 30pt;
+  font-family: 'Avenir', sans-serif;
+  padding-bottom: 1em;
+}
+
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 1.1em;
+  width: 450px;
+  line-height: 2;
+  margin: auto;
+
 }
 
 .intro {
   display: block;
-  margin: auto;
+  margin: auto !important;
+  position: absolute;
+  top: 40%;
   text-align: center;
   width: 820px;
+
 
 }
 
 
 /* Mouse Scroll Animation */
 
-.mouse-container {
-  display: block;
-  width: 100vw;
-  margin: auto;
-}
 
 .mouse {
-  background: #4e5559 linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
+  background: #6200FF linear-gradient(transparent 0%, transparent 50%, #ffffff 50%, #ffffff 100%);
   position: absolute;
-  bottom: 25px;
-  margin: auto;
+  bottom: 10em;
+  left: 49.28%;
   width: 52px;
   height: 88px;
   background-size: 100% 100%;
@@ -52,7 +116,7 @@ h1 {
 .mouse:before {
   width: 46px;
   height: 82px;
-  background-color: #222a30;
+  background-color: #6200FF;
   border-radius: 100px;
 }
 .mouse:after {
@@ -71,35 +135,35 @@ h1 {
     background-position: 0% 0%;
   }
   21% {
-    background-color: #4e5559;
+    
   }
   29.99% {
     background-color: #ffffff;
     background-position: 0% 0%;
   }
   30% {
-    background-color: #4e5559;
+    
     background-position: 0% 100%;
   }
   50% {
     background-position: 0% 0%;
   }
   51% {
-    background-color: #4e5559;
+    
   }
   59.99% {
     background-color: #ffffff;
     background-position: 0% 0%;
   }
   60% {
-    background-color: #4e5559;
+    
     background-position: 0% 100%;
   }
   80% {
     background-position: 0% 0%;
   }
   81% {
-    background-color: #4e5559;
+    
   }
   89.99%, 100% {
     background-color: #ffffff;
