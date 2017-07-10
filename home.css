@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('assets/fonts/Avenir.ttc');
+}
+
 
 html {
     overflow-x: hidden;
@@ -167,7 +172,7 @@ header img {
 }
 
 .body1-text h1 {
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-size: 20pt;
     color: #2FE6D4;
 }
@@ -232,7 +237,7 @@ header img {
     color: #009DFF;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -240,7 +245,7 @@ header img {
     color: #FFB100;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -248,7 +253,7 @@ header img {
     color: #9300FF;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -256,7 +261,7 @@ header img {
     color: #9300FF;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -264,7 +269,7 @@ header img {
     color: #FF00E2;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -272,7 +277,7 @@ header img {
     color: #009DFF;
     font-weight: 500;
     font-size: 14pt;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     margin-top: 3em;
 }
 
@@ -324,7 +329,7 @@ header img {
     }
 
     .showcase h1 {
-        font-family: Avenir, sans-serif;
+        font-family: 'Avenir', sans-serif;
         font-size: 25pt;
     }
 
@@ -460,7 +465,7 @@ header img {
 
 .footer h1 {
     color: #2FE6D4;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-size: 20pt;
     padding-bottom: 1.6em;
 }
@@ -493,7 +498,7 @@ header img {
 }
 
 .card h2 {
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-size: 14pt;
     padding-top: 3em;
     text-align: center;
@@ -587,7 +592,7 @@ header img {
     padding: 2em;
     margin: auto;
     text-align: center;
-    font-family: Avenir, sans-serif;
+    font-family: 'Avenir', sans-serif;
 
 }
 

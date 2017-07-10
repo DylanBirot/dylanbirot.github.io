@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Avenir';
+  src: url('assets/fonts/Avenir.ttc');
+}
 
 
 /* ---- stats.js ---- */
