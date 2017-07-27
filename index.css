@@ -232,3 +232,12 @@ a:visited {
   position: relative;
   top: 350px;
 }
+
+
+
+.dev-body {
+  background: linear-gradient(140deg, #00EBFF, #8900FF);
+  width: 100vw;
+  height: 400px;
+
+}
