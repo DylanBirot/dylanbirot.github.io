@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: "Avenir";
+  src: url("/Users/dylanbirot/Documents/GitHub/dylanbirot.github.io/assets/fonts/Avenir.ttc");
+}
+
 * {
   margin: 0;
   padding: 0;
