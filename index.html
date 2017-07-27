@@ -1,72 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Neptune Studios</title>
-  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
-  <meta name="author" content="Dylan Birot" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="/assets/neptunestudiosicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
+<html>
+
+  <head>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="left">
+        <ul class="nav">
+          <li>
+            <a id="logo" href="#">NS</a>
+          </li>
+
+          <li>
+            <a href="#">Design</a>
+          </li>
+
+          <li>
+            <a href="#">Development</a>
+          </li>
+
+          <!-- Button -->
+          <a href="#" class="btn btn-1">
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+            </svg>
+              Contact Us
+          </a>
+
+        </ul>
+
+        <div class="header-text">
+          <h1>Experts in Experience Creation</h1>
+          <hr />
+          <p>With power, passion and purpose, we bring emotion into digital experiences.</p>
+
+          </p>
+
+          <img src="assets/images/scrolldown.svg" />
+        </div>
+
+      </div>
+
+      <div class="right">
 
 
-<body id="body" onwheel="window.location.assign('home.html');">
+      </div>
 
-<!-- count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
+      <section class="design-body">
+        <h1 id="design">Design</h1>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+        <div class="design-content">
+          <img src="assets/images/neptune.png" />
 
-<!-- scripts -->
-<script src="particles.js/particles.js"></script>
-<script src="particles.js/demo/js/app.js"></script>
+          <h1>Lorem Ipsum Dolor.</h1>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum.
+          </p>
 
-<!-- stats.js -->
-<script src="particles.js/demo/js/lib/stats.js"></script>
-<script>
+          <a href="#" class="btn btn-1">
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+            </svg>
+              Our Creative Process
+          </a>
 
- 
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
+        </div>
 
-</script>
+      </section>
+
+      <section class="dev-body">
+
+        <div class="dev-content">
+          <div class="text-tile">
+
+          </div>
+          <div class="code-tile">
+
+          </div>
+        </div>
+
+      </section>
 
 
-<div id="particles-js" onclick="redirect()"></div>
- 
-  <div class="intro">
-      
-      <h1>Gold Coast Based Creative Agency</h1>
-      <p>
-        “Real sign of intelligence isn’t knoweldge, it’s imagination” Albert Einstein
-      </p>
     </div>
+  </body>
 
-    <div class="mouse-container">
-      <div class="mouse"></div>
-    </div>
-
-
-</body>
 </html>
