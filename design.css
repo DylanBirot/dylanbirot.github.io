@@ -316,15 +316,17 @@
   }
 
   .ourprocess p {
-      text-align: center;
-      line-height: 2;
-      margin-top: 6em;
+    width: 95%;
+    text-align: center;
+    line-height: 2.4;
+    margin: auto;
+    margin-top: 6em;
   }
 
   .ourprocess hr {
       width: 22em;
       margin: auto;
-      margin-top: 7em;
+      margin-top: 4em;
       border: 1px solid #4e4e4e;
   }
 
@@ -692,6 +694,7 @@
 }
 
 
+
 .text a {
     font-size: 11.5pt;
     margin: auto;
@@ -916,7 +919,7 @@ footer {
     .goals-text {
       width: 90vw;
       height: auto;
-      margin: auto;*
+      margin: auto;
       display: flex;
       flex-wrap: wrap;
       padding-left: 0;

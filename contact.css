@@ -9,11 +9,13 @@
 
   input::-webkit-input-placeholder {
       color: #4e4e4e;
+      opacity: 0.2;
   }
 
   a:link {
     color: black;
   }
+
 
   @fontface {
     font-family: 'Avenir';

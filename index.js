@@ -31,6 +31,7 @@ $(document).ready(function() {
 			$('.mobile-menu').css('visibility', 'visible');
 			$('.mobile-menu').fadeIn();
 			$('.mobile-menu a').css('animation', 'panup 1s ease-in-out');
+			$('.body-content').css('display', 'none');
 
 
 
@@ -40,8 +41,7 @@ $(document).ready(function() {
 			$("#bottom").css('transform', '').css('margin-top', '');
 			$('.mobile-menu a').css('animation', 'panout 1s ease-in-out');
 			$('.mobile-menu').fadeOut();
-
-
+			$('.body-content').css('display', '');
 
 
 		}
